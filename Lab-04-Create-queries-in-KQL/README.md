@@ -32,99 +32,83 @@ All activities were performed in a **controlled, non-production environment**.
 
 ---
 
-# Part 1 — Basic Queries
-
-## 1.1 Querying Custom Tables
+## 1. Querying Custom Tables
 
 Executed queries to retrieve data from custom tables and validate data ingestion.
 
-![1](Images/1.1-custom-table.png)
+![1](Images/1.png)
 
 ---
 
-## 1.2 Filtering Events by Keyword
+## 2. Filtering Events by Keyword
 
 Searched for events containing specific keywords within log descriptions.
 
-![2](Images/1.2-keyword-filter.png)
+![2](Images/2.png)
 
 ---
 
-## 1.3 Time-Based Filtering
+## 3. Time-Based Filtering
 
 Filtered events based on a defined timeframe (last 7 days).
 
-![3](Images/1.3-time-filter.png)
+![3](Images/3.png)
 
 ---
 
-# Part 2 — Event Filtering & Variables
+## 4. Process Creation Filtering
 
-## 2.1 Process Creation Filtering
+Filtered events other than related to process creation activities within a defined timeframe.
 
-Filtered events related to process creation activities within a defined timeframe.
-
-![4](Images/2.1-process-filter.png)
+![4](Images/4.png)
 
 ---
 
-## 2.2 Using Variables for Dynamic Queries
-
-Defined variables to simplify query structure and improve readability.
-
-![5](Images/2.2-variables.png)
-
----
-
-# Part 3 — Threat Hunting Scenarios
-
-## 3.1 Identifying Suspicious Accounts
+## 5. Identifying Suspicious Accounts
 
 Created a temporary list of accounts exhibiting suspicious activity and used it to filter related events.
 
-![6](Images/3.1-suspicious-accounts.png)
+![5](Images/5.png)
 
 ---
 
-## 3.2 Process Creation Analysis
+## 6. Process Creation Analysis
 
 Summarized process creation activity across accounts to identify anomalies.
 
-![7](Images/3.2-process-summary.png)
+![6](Images/6.png)
 
 ---
 
-## 3.3 Detection Rule Logic
+## 7. Detection Rule Logic
 
 Developed logic to detect repeated account disable failures across multiple systems.
 
-![8](Images/3.3-detection-rule.png)
+![7](Images/7.png)
 
 ---
 
-# Part 4 — Advanced Queries
-
-## 4.1 Latest Event Retrieval
+## 8. Latest Event Retrieval
 
 Queried the most recent event for a specific host.
 
-![9](Images/4.1-latest-event.png)
+![8](Images/8.png)
 
 ---
 
-## 4.2 User Activity Analysis
+## 9. User Activity Analysis
 
 Generated a list of accounts logging into systems over a defined period.
 
-![10](Images/4.2-user-activity.png)
+![9](Images/9.png)
 
 ---
 
-## 4.3 Data Visualization
+## 10. Data Visualization
 
 Rendered a bar chart to visualize event distribution across accounts.
 
-![11](Images/4.3-barchart.png)
+![10](Images/10.png)
 
 ---
 

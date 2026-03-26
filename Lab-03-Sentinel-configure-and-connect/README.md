@@ -40,7 +40,7 @@ All activities were performed in a **controlled, non-production environment**.
 
 Deployed Microsoft Sentinel to an existing Log Analytics workspace.
 
-![1](Images/1.1-sentinel.png)
+![1](Images/1.1.png)
 
 ---
 
@@ -48,7 +48,7 @@ Deployed Microsoft Sentinel to an existing Log Analytics workspace.
 
 Adjusted retention settings to control storage and align with monitoring requirements.
 
-![2](Images/1.2-retention.png)
+![2](Images/1.2.png)
 
 ---
 
@@ -56,7 +56,7 @@ Adjusted retention settings to control storage and align with monitoring require
 
 Created a watchlist to support detection and enrichment of threat intelligence.
 
-![3](Images/1.3-watchlist.png)
+![3](Images/1.3.png)
 
 ---
 
@@ -64,7 +64,7 @@ Created a watchlist to support detection and enrichment of threat intelligence.
 
 Verified that the watchlist was successfully created and available for use.
 
-![4](Images/1.4-watchlist-created.png)
+![4](Images/1.4.png)
 
 ---
 
@@ -72,7 +72,7 @@ Verified that the watchlist was successfully created and available for use.
 
 Created a threat indicator in Microsoft Defender portal.
 
-![5](Images/1.5-indicator.png)
+![5](Images/1.5.png)
 
 ---
 
@@ -80,7 +80,7 @@ Created a threat indicator in Microsoft Defender portal.
 
 Confirmed that the indicator is accessible within Sentinel.
 
-![6](Images/1.6-indicator-visible.png)
+![6](Images/1.6.png)
 
 ---
 
@@ -88,7 +88,7 @@ Confirmed that the indicator is accessible within Sentinel.
 
 Performed log search to validate that the indicator is usable in detection scenarios.
 
-![7](Images/1.7-log-search.png)
+![7](Images/1.7.png)
 
 ---
 
@@ -96,7 +96,7 @@ Performed log search to validate that the indicator is usable in detection scena
 
 Configured retention for the Security Event table.
 
-![8](Images/1.8-security-retention.png)
+![8](Images/1.8.png)
 
 ---
 
@@ -106,7 +106,7 @@ Configured retention for the Security Event table.
 
 Installed the Defender for Cloud solution from the Sentinel content hub.
 
-![9](Images/2.1-defender-cloud.png)
+![9](Images/2.1.png)
 
 ---
 
@@ -114,7 +114,7 @@ Installed the Defender for Cloud solution from the Sentinel content hub.
 
 Enabled the Defender for Cloud connector.
 
-![10](Images/2.2-connector-enabled.png)
+![10](Images/2.2.png)
 
 ---
 
@@ -122,7 +122,7 @@ Enabled the Defender for Cloud connector.
 
 Installed Azure Activity connector from Content Hub.
 
-![11](Images/2.3-activity-connector.png)
+![11](Images/2.3.png)
 
 ---
 
@@ -130,7 +130,7 @@ Installed Azure Activity connector from Content Hub.
 
 Configured Azure Activity data connector to ingest logs.
 
-![12](Images/2.4-connector-config.png)
+![12](Images/2.4.png)
 
 ---
 
@@ -140,7 +140,7 @@ Configured Azure Activity data connector to ingest logs.
 
 Configured Windows Security Events data collection.
 
-![13](Images/3.1-windows-events.png)
+![13](Images/3.1.png)
 
 ---
 
@@ -148,7 +148,7 @@ Configured Windows Security Events data collection.
 
 Created a Data Collection Rule (DCR) for Windows logs.
 
-![14](Images/3.2-dcr.png)
+![14](Images/3.2.png)
 
 ---
 
@@ -156,7 +156,7 @@ Created a Data Collection Rule (DCR) for Windows logs.
 
 Verified that logs are successfully collected.
 
-![15](Images/3.3-dcr-created.png)
+![15](Images/3.3.png)
 
 ---
 
@@ -166,7 +166,7 @@ Verified that logs are successfully collected.
 
 Installed Azure CLI on Ubuntu VM.
 
-![16](Images/4.1-azure-cli.png)
+![16](Images/4.1.png)
 
 ---
 
@@ -174,7 +174,7 @@ Installed Azure CLI on Ubuntu VM.
 
 Installed Azure Arc agent on Linux machine.
 
-![17](Images/4.2-arc-agent.png)
+![17](Images/4.2.png)
 
 ---
 
@@ -182,7 +182,7 @@ Installed Azure Arc agent on Linux machine.
 
 Connected Linux machine to Azure.
 
-![18](Images/4.3-linux-connected.png)
+![18](Images/4.3.png)
 
 ---
 
@@ -190,7 +190,7 @@ Connected Linux machine to Azure.
 
 Installed Common Event Format (CEF) solution.
 
-![19](Images/4.4-cef.png)
+![19](Images/4.4.png)
 
 ---
 
@@ -198,7 +198,7 @@ Installed Common Event Format (CEF) solution.
 
 Created DCR for CEF logs.
 
-![20](Images/4.5-cef-dcr.png)
+![20](Images/4.5.png)
 
 ---
 
@@ -206,7 +206,7 @@ Created DCR for CEF logs.
 
 Configured log forwarder on Linux host.
 
-![21](Images/4.6-forwarder.png)
+![21](Images/4.6.png)
 
 ---
 
@@ -214,7 +214,7 @@ Configured log forwarder on Linux host.
 
 Installed Syslog connector.
 
-![22](Images/4.7-syslog.png)
+![22](Images/4.7.png)
 
 ---
 
@@ -222,7 +222,7 @@ Installed Syslog connector.
 
 Configured DCR for Syslog ingestion.
 
-![23](Images/4.8-syslog-dcr.png)
+![23](Images/4.8.png)
 
 ---
 
@@ -230,7 +230,7 @@ Configured DCR for Syslog ingestion.
 
 Verified successful log forwarding.
 
-![24](Images/4.9-forwarder-validation.png)
+![24](Images/4.9.png)
 
 ---
 
@@ -240,7 +240,7 @@ Verified successful log forwarding.
 
 Installed Microsoft Defender solution via Sentinel.
 
-![25](Images/5.1-defender-solution.png)
+![25](Images/5.1.png)
 
 ---
 
@@ -248,7 +248,7 @@ Installed Microsoft Defender solution via Sentinel.
 
 Verified connector status is "Connected".
 
-![26](Images/5.2-connected.png)
+![26](Images/5.2.png)
 
 ---
 
@@ -256,7 +256,7 @@ Verified connector status is "Connected".
 
 Confirmed workspace visibility in Defender portal.
 
-![27](Images/5.3-workspace.png)
+![27](Images/5.3.png)
 
 ---
 

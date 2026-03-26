@@ -41,7 +41,9 @@ All activities were performed in an **isolated, non-production environment**.
 
 Initiated device discovery from the Defender portal to identify assets within the environment.
 
-![1](Images/1.1-device-discovery.png)
+![1](Images/1.1.1.png)
+
+![1](Images/1.1.2.png)
 
 ---
 
@@ -49,7 +51,7 @@ Initiated device discovery from the Defender portal to identify assets within th
 
 Executed onboarding script on a virtual machine to connect the host to Defender for Endpoint.
 
-![2](Images/1.2-onboarding-script.png)
+![2](Images/1.2.png)
 
 ---
 
@@ -57,7 +59,7 @@ Executed onboarding script on a virtual machine to connect the host to Defender 
 
 Confirmed that the host was successfully onboarded and visible in the Defender portal.
 
-![3](Images/1.3-onboarded-device.png)
+![3](Images/1.3.png)
 
 ---
 
@@ -65,7 +67,7 @@ Confirmed that the host was successfully onboarded and visible in the Defender p
 
 Executed a test script on the onboarded VM to generate security alerts.
 
-![4](Images/1.4-test-alert.png)
+![4](Images/1.4.png)
 
 ---
 
@@ -73,7 +75,7 @@ Executed a test script on the onboarded VM to generate security alerts.
 
 Verified that alerts generated from the test activity were successfully ingested into Defender.
 
-![5](Images/1.5-alerts-visible.png)
+![5](Images/1.5.png)
 
 ---
 
@@ -81,7 +83,11 @@ Verified that alerts generated from the test activity were successfully ingested
 
 Configured roles within the Defender portal to manage access and permissions.
 
-![6](Images/1.6-roles.png)
+![6](Images/1.6.1.png)
+
+![6](Images/1.6.2.png)
+
+![6](Images/1.6.3.png)
 
 ---
 
@@ -89,7 +95,7 @@ Configured roles within the Defender portal to manage access and permissions.
 
 Created a security group in Microsoft Entra ID for role assignment and access control.
 
-![7](Images/1.7-entra-group.png)
+![7](Images/1.7.png)
 
 ---
 
@@ -97,7 +103,7 @@ Created a security group in Microsoft Entra ID for role assignment and access co
 
 Configured device groups to segment endpoints and apply policies.
 
-![8](Images/1.8-device-group.png)
+![8](Images/1.8.png)
 
 ---
 
@@ -107,7 +113,7 @@ Configured device groups to segment endpoints and apply policies.
 
 Opened and analysed the test alert generated during simulation.
 
-![9](Images/2.1-alert-analysis.png)
+![9](Images/2.1.png)
 
 ---
 
@@ -115,7 +121,9 @@ Opened and analysed the test alert generated during simulation.
 
 Observed how Defender automatically correlates alerts into an incident.
 
-![10](Images/2.2-incident.png)
+![10](Images/2.2.1.png)
+
+![10](Images/2.2.2.png)
 
 ---
 
@@ -123,7 +131,7 @@ Observed how Defender automatically correlates alerts into an incident.
 
 Reviewed incident details, severity, affected assets, and recommended actions.
 
-![11](Images/2.3-incident-management.png)
+![11](Images/2.3.png)
 
 ---
 
@@ -131,7 +139,7 @@ Reviewed incident details, severity, affected assets, and recommended actions.
 
 Executed another attack script to generate additional suspicious activity.
 
-![12](Images/2.4-second-attack.png)
+![12](Images/2.4.png)
 
 ---
 
@@ -139,7 +147,11 @@ Executed another attack script to generate additional suspicious activity.
 
 Verified that multiple alerts were grouped into a single incident for investigation.
 
-![13](Images/2.5-alert-correlation.png)
+![13](Images/2.5.1.png)
+
+![13](Images/2.5.2.png)
+
+![13](Images/2.5.3.png)
 
 ---
 
@@ -154,7 +166,7 @@ Reviewed collected evidence including:
 
 to understand the attack chain.
 
-![14](Images/2.6-evidence.png)
+![14](Images/2.6.png)
 
 ---
 

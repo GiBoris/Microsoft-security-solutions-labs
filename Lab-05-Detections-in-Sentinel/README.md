@@ -39,7 +39,7 @@ All activities were performed in a **controlled, non-production environment**.
 
 Installed Sentinel SOAR Essentials to enable automation capabilities.
 
-![1](Images/1.1-soar.png)
+![1](Images/1.1.png)
 
 ---
 
@@ -47,7 +47,7 @@ Installed Sentinel SOAR Essentials to enable automation capabilities.
 
 Created a playbook to automate incident response actions.
 
-![2](Images/1.2-playbook.png)
+![2](Images/1.2.png)
 
 ---
 
@@ -55,7 +55,7 @@ Created a playbook to automate incident response actions.
 
 Configured connections and permissions required for playbook execution.
 
-![3](Images/1.3-playbook-config.png)
+![3](Images/1.3.png)
 
 ---
 
@@ -63,7 +63,9 @@ Configured connections and permissions required for playbook execution.
 
 Created an automation rule to trigger the playbook upon incident creation.
 
-![4](Images/1.4-automation-rule.png)
+![4](Images/1.4.1.png)
+
+![4](Images/1.4.2.png)
 
 ---
 
@@ -73,7 +75,7 @@ Created an automation rule to trigger the playbook upon incident creation.
 
 Created a scheduled query rule to detect suspicious activity.
 
-![5](Images/2.1-rule.png)
+![5](Images/2.1.png)
 
 ---
 
@@ -81,7 +83,7 @@ Created a scheduled query rule to detect suspicious activity.
 
 Verified that the rule is active and running.
 
-![6](Images/2.2-rule-running.png)
+![6](Images/2.2.png)
 
 ---
 
@@ -91,7 +93,7 @@ Verified that the rule is active and running.
 
 Enabled User and Entity Behaviour Analytics to enhance detection capability.
 
-![7](Images/3.1-ueba.png)
+![7](Images/3.1.png)
 
 ---
 
@@ -99,7 +101,7 @@ Enabled User and Entity Behaviour Analytics to enhance detection capability.
 
 Confirmed that UEBA-related analytic rules are enabled.
 
-![8](Images/3.2-ueba-rules.png)
+![8](Images/3.2.png)
 
 ---
 
@@ -109,7 +111,7 @@ Confirmed that UEBA-related analytic rules are enabled.
 
 Simulated persistence via registry modification.
 
-![9](Images/4.1-persistence.png)
+![9](Images/4.1.png)
 
 ---
 
@@ -117,7 +119,7 @@ Simulated persistence via registry modification.
 
 Simulated user creation and privilege escalation activity.
 
-![10](Images/4.2-privilege.png)
+![10](Images/4.2.png)
 
 ---
 
@@ -125,7 +127,7 @@ Simulated user creation and privilege escalation activity.
 
 Simulated DNS-based C2 communication.
 
-![11](Images/4.3-c2.png)
+![11](Images/4.3.png)
 
 ---
 
@@ -135,7 +137,7 @@ Simulated DNS-based C2 communication.
 
 Developed a query to detect registry-based persistence.
 
-![12](Images/5.1-registry-query.png)
+![12](Images/5.1.png)
 
 ---
 
@@ -143,7 +145,9 @@ Developed a query to detect registry-based persistence.
 
 Created an analytic rule based on the persistence detection query.
 
-![13](Images/5.2-detection-rule.png)
+![13](Images/5.2.1.png)
+
+![13](Images/5.2.2.png)
 
 ---
 
@@ -151,7 +155,7 @@ Created an analytic rule based on the persistence detection query.
 
 Developed a query to detect group membership changes.
 
-![14](Images/5.3-privilege-query.png)
+![14](Images/5.3.png)
 
 ---
 
@@ -159,7 +163,7 @@ Developed a query to detect group membership changes.
 
 Created detection rule to alert on privilege escalation activity.
 
-![15](Images/5.4-privilege-rule.png)
+![15](Images/5.4.png)
 
 ---
 
@@ -169,7 +173,7 @@ Created detection rule to alert on privilege escalation activity.
 
 Reviewed generated incidents in Microsoft Defender portal.
 
-![16](Images/6.1-incidents.png)
+![16](Images/6.1.png)
 
 ---
 
@@ -177,7 +181,7 @@ Reviewed generated incidents in Microsoft Defender portal.
 
 Executed playbook on selected incident.
 
-![17](Images/6.2-playbook-run.png)
+![17](Images/6.2.png)
 
 ---
 
@@ -185,7 +189,7 @@ Executed playbook on selected incident.
 
 Created investigation task within the incident.
 
-![18](Images/6.3-task.png)
+![18](Images/6.3.png)
 
 ---
 
@@ -193,7 +197,7 @@ Created investigation task within the incident.
 
 Updated incident status to resolved after investigation.
 
-![19](Images/6.4-resolved.png)
+![19](Images/6.4.png)
 
 ---
 

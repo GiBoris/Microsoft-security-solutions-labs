@@ -1,4 +1,4 @@
-### Microsoft-security-solutions-labs
+## Microsoft-security-solutions-labs
 
 ### Lab 01 — Azure setup + Security Investigation
 

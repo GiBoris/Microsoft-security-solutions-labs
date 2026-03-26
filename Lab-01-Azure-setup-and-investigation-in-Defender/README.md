@@ -40,7 +40,7 @@ All activities were performed in an **isolated, non-production environment**.
 
 Configured a cost management budget to control Azure spending and prevent unexpected charges.
 
-![1](Images/1.1-budget.png)
+![1](Images/1.1.png)
 
 ---
 
@@ -48,7 +48,7 @@ Configured a cost management budget to control Azure spending and prevent unexpe
 
 Set up budget alerts to trigger notifications when spending thresholds are reached.
 
-![2](Images/1.2-alerts.png)
+![2](Images/1.2.png)
 
 ---
 
@@ -56,7 +56,7 @@ Set up budget alerts to trigger notifications when spending thresholds are reach
 
 Created a dedicated resource group to logically organize cloud resources used in the lab.
 
-![3](Images/1.3-resource-group.png)
+![3](Images/1.3.png)
 
 ---
 
@@ -64,7 +64,7 @@ Created a dedicated resource group to logically organize cloud resources used in
 
 Provisioned a workspace to enable centralized logging and integration with security tools.
 
-![4](Images/1.4-workspace.png)
+![4](Images/1.4.png)
 
 ---
 
@@ -74,7 +74,7 @@ Provisioned a workspace to enable centralized logging and integration with secur
 
 Configured tenant settings to allow appropriate access across Azure services.
 
-![5](Images/2.1-access.png)
+![5](Images/2.1.png)
 
 ---
 
@@ -82,7 +82,7 @@ Configured tenant settings to allow appropriate access across Azure services.
 
 Assigned **Owner role** to the user to enable full administrative control for lab configuration.
 
-![6](Images/2.2-role.png)
+![6](Images/2.2.png)
 
 ---
 
@@ -90,7 +90,7 @@ Assigned **Owner role** to the user to enable full administrative control for la
 
 Provisioned Microsoft Security Copilot and verified its availability for investigation workflows.
 
-![7](Images/3.1-copilot.png)
+![7](Images/3.png)
 
 ---
 
@@ -100,7 +100,7 @@ Provisioned Microsoft Security Copilot and verified its availability for investi
 
 Selected **high severity incident #185856** for investigation.
 
-![8](Images/4.1-incident.png)
+![8](Images/4.1.png)
 
 ---
 
@@ -108,7 +108,7 @@ Selected **high severity incident #185856** for investigation.
 
 Investigated suspicious Remote Desktop activity associated with the incident.
 
-![9](Images/4.2-rdp.png)
+![9](Images/4.2.png)
 
 ---
 
@@ -116,7 +116,7 @@ Investigated suspicious Remote Desktop activity associated with the incident.
 
 Used Security Copilot to generate a **summary of the affected device**, improving investigation speed.
 
-![10](Images/4.3-device-summary.png)
+![10](Images/4.3.png)
 
 ---
 
@@ -124,7 +124,7 @@ Used Security Copilot to generate a **summary of the affected device**, improvin
 
 Analyzed details of the user associated with the compromised asset.
 
-![11](Images/4.4-user.png)
+![11](Images/4.4.png)
 
 ---
 
@@ -132,7 +132,7 @@ Analyzed details of the user associated with the compromised asset.
 
 Identified unexpected script execution originating from the user's device.
 
-![12](Images/4.5-scripts.png)
+![12](Images/4.5.png)
 
 ---
 
@@ -140,7 +140,7 @@ Identified unexpected script execution originating from the user's device.
 
 Decoded a suspicious PowerShell command to reveal underlying behavior.
 
-![13](Images/4.6-powershell.png)
+![13](Images/4.6.png)
 
 ---
 
@@ -155,7 +155,7 @@ Investigated related:
 
 to understand full attack scope.
 
-![14](Images/4.7-artifacts.png)
+![14](Images/4.7.png)
 
 ---
 
@@ -163,7 +163,7 @@ to understand full attack scope.
 
 Detected usage of **mimikatz.exe**, indicating credential dumping activity.
 
-![15](Images/4.8-mimikatz.png)
+![15](Images/4.8.png)
 
 ---
 
@@ -171,7 +171,11 @@ Detected usage of **mimikatz.exe**, indicating credential dumping activity.
 
 Used Security Copilot to enrich findings and accelerate analysis.
 
-![16](Images/4.9-copilot-analysis.png)
+![16](Images/4.9.1.png)
+
+![16](Images/4.9.2.png)
+
+![16](Images/4.9.3.png)
 
 ---
 
@@ -179,7 +183,7 @@ Used Security Copilot to enrich findings and accelerate analysis.
 
 Generated and executed **KQL queries** to identify additional malicious activity.
 
-![17](Images/4.10-kql.png)
+![17](Images/4.10.png)
 
 ---
 
@@ -187,7 +191,7 @@ Generated and executed **KQL queries** to identify additional malicious activity
 
 Correlated additional alerts uncovered during advanced hunting.
 
-![18](Images/4.11-alerts.png)
+![18](Images/4.11.png)
 
 ---
 

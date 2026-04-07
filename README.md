@@ -44,3 +44,12 @@
 - Full incident investigation workflow
 
 ➡️ [Open Lab 05](Lab-05-Detections-in-Sentinel/)
+
+### Lab 06 — Azure Networking & Security
+
+- Virtual Networks, subnets, and DNS configuration
+- VNet peering, gateways, and Virtual WAN
+- Azure Firewall (application + network + DNAT)
+- DDoS protection and monitoring
+
+➡️ [Open Lab 06](Lab-06-Networking-in-Azure/)

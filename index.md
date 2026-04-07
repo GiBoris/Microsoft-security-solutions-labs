@@ -98,7 +98,7 @@ Focus:
 - Protection against data exfiltration (incl. AI tools)
 - Insider risk monitoring and policies
 
-➡️ [Open Lab](./Lab-06-Purview/)
+➡️ [Open Lab](./Lab-07-Purview/)
 
 ---
 

@@ -90,6 +90,18 @@ Focus:
 
 ---
 
+### ✅ Lab 07 — Purview
+
+Focus:
+- Sensitive data classification and labeling
+- Data Loss Prevention (DLP) policies
+- Protection against data exfiltration (incl. AI tools)
+- Insider risk monitoring and policies
+
+➡️ [Open Lab](./Lab-06-Purview/)
+
+---
+
 ## What this portfolio demonstrates
 
 - End-to-end Microsoft security ecosystem understanding  

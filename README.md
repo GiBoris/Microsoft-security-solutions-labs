@@ -53,3 +53,12 @@
 - DDoS protection and monitoring
 
 ➡️ [Open Lab 06](Lab-06-Networking-in-Azure/)
+
+### Lab 07 — Microsoft Purview (Data Protection & Insider Risk)
+
+- Sensitive data classification and labeling
+- Data Loss Prevention (DLP) policies
+- Protection against data exfiltration (incl. AI tools)
+- Insider risk monitoring and policies
+
+➡️ [Open Lab 07](Lab-07-Purview/)

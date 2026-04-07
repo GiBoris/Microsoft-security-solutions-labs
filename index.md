@@ -78,6 +78,18 @@ Focus:
 
 ---
 
+### ✅ Lab 06 — Networking in Azure
+
+Focus:
+- Virtual Networks, subnets, and DNS configuration
+- VNet peering, gateways, and Virtual WAN
+- Azure Firewall (application + network + DNAT)
+- DDoS protection and monitoring
+
+➡️ [Open Lab](./Lab-06-Networking-in-Azure/)
+
+---
+
 ## What this portfolio demonstrates
 
 - End-to-end Microsoft security ecosystem understanding  

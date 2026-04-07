@@ -152,7 +152,7 @@ Enabled insider risk monitoring features.
 
 Created policy to detect risky user behaviour patterns.
 
-![11](Images/11-risk-policy.png)
+![11](Images/11.png)
 
 ---
 

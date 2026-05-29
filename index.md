@@ -100,6 +100,19 @@ Focus:
 
 ➡️ [Open Lab](./Lab-07-Purview/)
 
+### Lab 08 — Complete Azure & Sentinel Setup
+
+- Azure infrastructure deployment;
+- Windows and Linux VM onboarding;
+- Log Analytics Workspace and Data Collection Rules;
+- Defender for Cloud and Defender for Endpoint;
+- Microsoft Sentinel deployment;
+- KQL investigations;
+- Analytics rules and alert validation;
+- Sentinel workbook creation.
+
+➡️ [Open Lab 08](./Lab-08-Complete-Azure-and-Sentinel-Setup/)
+
 ---
 
 ## What this portfolio demonstrates
